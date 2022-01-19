@@ -23,8 +23,8 @@ public class Change_Arrangement {
         //---------for user input
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Size of String Array:");
-        ar = new String[size];
         size = sc.nextInt();
+        ar = new String[size];
         System.out.println("Enter the String Elements of Array:");
         for (int i=0; i<ar.length; i++) {
             ar[i] = sc.next();
